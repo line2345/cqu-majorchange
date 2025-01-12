@@ -46,3 +46,15 @@ nav:
     - 往年试题:
         - 深度学习: recall/重大软院-深度学习-24试题回忆.md
         - 机器学习: recall/重大软院-机器学习-24试题回忆.md
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
