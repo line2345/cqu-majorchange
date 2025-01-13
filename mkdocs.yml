@@ -1,7 +1,13 @@
 site_name: Egopposer
 site_url: https://line2345.github.io
 site_author: line2345
+
+# 仓库
+repo_name: line2345.github.io
+repo_url: https://github.com/line2345/line2345.github.io
+
 theme:
+
   name: material
 
   palette:
@@ -26,35 +32,25 @@ theme:
     toggle:
       icon: material/toggle-switch-off-outline
       name: 切换至日间模式
+  
 
 
-features:
-    - content.footnote.tooltips   #鼠标悬停在脚注上时显示脚注内容
-    - navigation.instant   #- header.autohide  #自动隐藏
-    #- announce.dismiss   #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
-    - navigation.tracking   #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
-    - navigation.tabs   #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
-    #- navigation.tabs.sticky    #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
-    #- navigation.sections   #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
-    - navigation.top   # 返回顶部的按钮 在上滑时出现
-    - search.suggest   # 搜索输入一些字母时推荐补全整个单词
-    - search.highlight   # 搜索出的文章关键词加入高亮
-    - navigation.expand   # 打开Tab时左侧目录全部展开
-    #- navigation.indexes   #启用节索引页后，可以将文档直接附加到节
-    - search.share   #搜索分享按钮
+  features:
+    - navigation.top  # 启用顶部导航
+    - navigation.tabs # 可选：如果有子级内容，可以将其显示为标签式导航
 
 # 导航页
 nav:
-    - 首页: index.md
-    - 转专业指南: 
-        - part1: project1.md
-    - 往年试题:
-        - 深度学习: recall/重大软院-深度学习-24试题回忆.md
-        - 机器学习: recall/重大软院-机器学习-24试题回忆.md
+  - 首页: index.md
+  - 转专业指南: 
+    - part1: project1.md
+  - 往年试题:
+    - 深度学习: recall/重大软院-深度学习-24试题回忆.md
+    - 机器学习: recall/重大软院-机器学习-24试题回忆.md
 
 markdown_extensions:
-  - footnotes
-  # 数学库支持
+  - tables # 表格支持
+  - footnotes # 数学库支持
   - pymdownx.arithmatex:
       generic: true
 
@@ -78,6 +74,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
