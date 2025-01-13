@@ -1,6 +1,8 @@
 site_name: Egopposer
 site_url: https://line2345.github.io
 site_author: line2345
+theme:
+  name: material
 
 palette:
   - media: "(prefers-color-scheme)"
