@@ -3,8 +3,8 @@ site_url: https://line2345.github.io
 site_author: line2345
 theme:
   name: material
-
-palette:
+  
+  palette:
   - media: "(prefers-color-scheme)"
     toggle:
       icon: material/link
@@ -26,6 +26,7 @@ palette:
     toggle:
       icon: material/toggle-switch-off-outline
       name: 切换至日间模式
+
 
 features:
     - navigation.instant   #- header.autohide  #自动隐藏
