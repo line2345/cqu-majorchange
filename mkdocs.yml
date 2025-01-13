@@ -7,9 +7,8 @@ repo_name: line2345.github.io
 repo_url: https://github.com/line2345/line2345.github.io
 
 theme:
-
   name: material
-
+  custom_dir: docs/overrides
   palette:
   - media: "(prefers-color-scheme)"
     toggle:
@@ -18,8 +17,8 @@ theme:
   #primary: blue grey
   - media: "(prefers-color-scheme: light)"
     scheme: default # 日间模式
-    primary: blue grey # 上方的
-    accent: blue # 链接等可交互元件的高亮色
+    primary: teal # 上方的
+    accent: green # 链接等可交互元件的高亮色
     # teal
     toggle:
       icon: material/toggle-switch # 图标
@@ -33,17 +32,25 @@ theme:
       icon: material/toggle-switch-off-outline
       name: 切换至日间模式
   
-
-
   features:
     - navigation.top  # 启用顶部导航
     - navigation.tabs # 可选：如果有子级内容，可以将其显示为标签式导航
+    - content.code.annotate  # 启用代码注释功能（未来可用）
+    - content.tooltips  # 支持工具提示（如悬停说明）
 
 # 导航页
 nav:
   - 首页: index.md
   - 转专业指南: 
-    - part1: project1.md
+    - 1. 前言: majorchange/1. 前言.md
+    - 2. 流程概览: majorchange/2. 流程概览.md
+    - 3. 转专业前的衡量: majorchange/3. 转专业前的衡量.md
+    - 4. 报名与准备工作: majorchange/4. 报名与准备工作.md
+    - 5. 面试与笔试: majorchange/5. 面试与笔试.md
+    - 6. 转专业后的安排: majorchange/6. 转专业后的安排.md
+    - 7. 学分认证与补课: majorchange/7. 学分认证与补课.md
+    - 8. 保研相关: majorchange/8. 保研.md
+    - 9. 结语: majorchange/9. 结语.md
   - 往年试题:
     - 深度学习: recall/重大软院-深度学习-24试题回忆.md
     - 机器学习: recall/重大软院-机器学习-24试题回忆.md
@@ -91,7 +98,7 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # MathJax数学支持
 
 extra_css:
-  - https://unpkg.com/katex@0/dist/katex.min.css
+  - https://unpkg.com/katex@0/dist/katex.min.css # KaTeX数学支持

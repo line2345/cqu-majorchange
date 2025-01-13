@@ -1,17 +1,56 @@
-# Welcome to MkDocs
+# **欢迎来到 Egopposer 的小窝！** :sparkles:  
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> **仓库地址**：[`line2345`](https://github.com/Egopposer/line2345)  
+> **当前状态**：🚧 **施工中**，敬请期待更新！
 
-## Commands 2.0
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### 🛠️ **站点简介**
+这里是一个分享 **转专业经验**、**学习资料** 和 **往年试题** 的站点。  
+无论你是准备跨学科的学习者，还是在寻找学习资源的学生，这里都将是你获取有用信息的地方！  
 
-## Project layout
+未来更新内容包括（敬请期待）：  
+- 📘 转专业的经验总结与规划建议  
+- 📚 高质量的学习资料与笔记分享  
+- 📝 往年试题及解析  
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+
+### 📌 **施工进度**
+目前站点仍在施工中，以下是施工计划与进展：  
+
+- [x] **站点框架搭建**  
+- [ ] **转专业经验分享**  
+- [ ] **学习资料上传**  
+- [ ] **往年试题整理**  
+
+:construction: **当前进度：正在整理内容与优化页面布局**  
+
+---
+
+### 📎 **快速导航**
+以下是一些即将添加的页面与功能：  
+
+1. **[转专业经验](#)**（待上线）  
+2. **[学习资料](#)**（待上线）  
+3. **[试题与解析](#)**（待上线）  
+
+---
+
+### 💡 **关于站点作者**
+你好，我是 **Egopposer** 👋，一名正在努力分享知识与经验的学习者。  
+这个站点是我个人学习与成长的记录，同时希望它也能帮助到更多有相同目标的朋友！  
+
+---
+
+### 🗂️ **联系我**
+如有任何建议或问题，欢迎通过以下方式联系：  
+- **GitHub**: [Egopposer · line2345](https://github.com/Egopposer/line2345)  
+- **Email**: your-email@example.com  
+
+---
+
+### 🚧 **站点施工中**
+> **注意：**  
+> 当前站点仍在施工中，因此某些功能或页面可能尚未完善。  
+> 请持续关注更新，感谢你的支持！
