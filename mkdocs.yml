@@ -3,7 +3,7 @@ site_url: https://line2345.github.io
 site_author: line2345
 theme:
   name: material
-  
+
   palette:
   - media: "(prefers-color-scheme)"
     toggle:
@@ -29,6 +29,7 @@ theme:
 
 
 features:
+    - content.footnote.tooltips   #鼠标悬停在脚注上时显示脚注内容
     - navigation.instant   #- header.autohide  #自动隐藏
     #- announce.dismiss   #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
     - navigation.tracking   #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
@@ -42,6 +43,7 @@ features:
     #- navigation.indexes   #启用节索引页后，可以将文档直接附加到节
     - search.share   #搜索分享按钮
 
+# 导航页
 nav:
     - 首页: index.md
     - 转专业指南: 
@@ -51,13 +53,46 @@ nav:
         - 机器学习: recall/重大软院-机器学习-24试题回忆.md
 
 markdown_extensions:
+  - footnotes
+  # 数学库支持
   - pymdownx.arithmatex:
       generic: true
 
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
 extra_javascript:
-  - javascripts/katex.js
-  - https://unpkg.com/katex@0/dist/katex.min.js
-  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
