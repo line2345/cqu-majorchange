@@ -45,20 +45,20 @@ nav:
     - 1. 前言: majorchange/1. 前言.md
     - 2. 流程概览: majorchange/2. 流程概览.md
     - 3. 转专业前的衡量: majorchange/3. 转专业前的衡量.md
-    - 4. 报名与准备工作: majorchange/4. 报名与准备工作.md
+    - 4. 准备工作与报名: majorchange/4. 报名与准备工作.md
     - 5. 面试与笔试: majorchange/5. 面试与笔试.md
     - 6. 转专业后的安排: majorchange/6. 转专业后的安排.md
     - 7. 学分认证与补课: majorchange/7. 学分认证与补课.md
     - 8. 保研相关: majorchange/8. 保研.md
     - 9. 结语: majorchange/9. 结语.md
+    - 10. 参考资料: majorchange/10. 参考资料.md
   - 往年试题:
     - 深度学习: recall/重大软院-深度学习-24试题回忆.md
     - 机器学习: recall/重大软院-机器学习-24试题回忆.md
 
 markdown_extensions:
   - tables # 表格支持
-  - footnotes # 数学库支持
-  - pymdownx.arithmatex:
+  - pymdownx.arithmatex: # 数学库支持
       generic: true
 
   # Python Markdown
@@ -75,7 +75,7 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
-      smart_enable: all
+      smart_enable: false
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:

@@ -1,18 +1,12 @@
 # **欢迎来到 Egopposer 的小窝！** :sparkles:  
 
 > **仓库地址**：[`line2345`](https://github.com/Egopposer/line2345)  
-> **当前状态**：🚧 **施工中**，敬请期待更新！
+> **当前状态**：🚧 **施工中**！
 
 ---
 
 ### 🛠️ **站点简介**
-这里是一个分享 **转专业经验**、**学习资料** 和 **往年试题** 的站点。  
-无论你是准备跨学科的学习者，还是在寻找学习资源的学生，这里都将是你获取有用信息的地方！  
-
-未来更新内容包括（敬请期待）：  
-- 📘 转专业的经验总结与规划建议  
-- 📚 高质量的学习资料与笔记分享  
-- 📝 往年试题及解析  
+暂时是一个分享转专业经验的地方。请**右转**查看相关内容。
 
 ---
 
@@ -20,33 +14,24 @@
 目前站点仍在施工中，以下是施工计划与进展：  
 
 - [x] **站点框架搭建**  
-- [ ] **转专业经验分享**  
-- [ ] **学习资料上传**  
-- [ ] **往年试题整理**  
+- [ ] 前言
+- [ ] 流程概览
+- [ ] 转专业前的衡量
+- [ ] 报名与准备工作
+- [ ] 面试与笔试
+- [ ] 转专业后的安排
+- [ ] 学分认证与补课
+- [ ] 保研相关
+- [ ] 结语
+- [ ] 参考资料
 
-:construction: **当前进度：正在整理内容与优化页面布局**  
+<!-- Wenjuan Layer Begin --> <div id="idy_floatdiv" style="position:fixed;display:flex;left:0;bottom:10%;width:30px;border-top-right-radius:6px;border-bottom-right-radius:6px;height:100px;background:#26B941;line-height: 24px;writing-mode:vertical-rl;align-items:center;justify-content:center;font-family:PingFangSC-Regular;font-size:16px;"> <a href="https://wj.qq.com/s2/17324876/fe73/" target="blank" style="color:#FFFFFF;text-decoration:none;">问卷调查</a> </div> <!-- Wenjuan Layer End -->
 
----
-
-### 📎 **快速导航**
-以下是一些即将添加的页面与功能：  
-
-1. **[转专业经验](#)**（待上线）  
-2. **[学习资料](#)**（待上线）  
-3. **[试题与解析](#)**（待上线）  
-
----
-
-### 💡 **关于站点作者**
-你好，我是 **Egopposer** 👋，一名正在努力分享知识与经验的学习者。  
-这个站点是我个人学习与成长的记录，同时希望它也能帮助到更多有相同目标的朋友！  
-
----
 
 ### 🗂️ **联系我**
 如有任何建议或问题，欢迎通过以下方式联系：  
 - **GitHub**: [Egopposer · line2345](https://github.com/Egopposer/line2345)  
-- **Email**: your-email@example.com  
+- **Email**: 476057016line@gmail.com 
 
 ---
 
