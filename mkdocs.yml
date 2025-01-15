@@ -42,6 +42,7 @@ theme:
 nav:
   - 首页: index.md
   - 转专业指南: 
+    - 0. 导航: majorchange/nav.md
     - 1. 前言: majorchange/1. 前言.md
     - 2. 流程概览: majorchange/2. 流程概览.md
     - 3. 转专业前的衡量: majorchange/3. 转专业前的衡量.md
