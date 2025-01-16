@@ -4,9 +4,6 @@
 
 📚 一个为重庆大学学生提供转专业参考信息的开源文档
 
-[![License](https://img.shields.io/github/license/your-username/your-repo)](LICENSE)
-
-
 </div>
 
 ## 📖 项目简介
