@@ -1,5 +1,3 @@
-# CQU转专业完全指南
-
 <div class="grid cards" markdown>
 
 -   :material-book-open-page-variant:{ .lg .middle } __项目简介__
@@ -36,6 +34,17 @@
     - [ ] [结语](9.%20结语.md) - 项目总结
     - [ ] [参考资料](10.%20参考资料.md) - 官方文件与其他参考资料
 
+-   :material-clock-time-four-outline:{ .lg .middle } __最近更新__
+
+    ---
+
+    <div class="updates-container" markdown>
+    
+    - 2024-01-16：
+        新增[前言-转入与转出](1.%20前言/#1_1)，更新部分格式与排版。
+    
+    
+    </div>
 
 </div>
 
@@ -61,5 +70,33 @@
 }
 .lg {
     font-size: 2rem;
+}
+.updates-container {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}
+.updates-container .admonition {
+    margin: 0.5rem 0;
+}
+.updates-container .admonition-title {
+    display: none;
+}
+.updates-container p {
+    margin: 0;
+}
+/* 自定义滚动条样式 */
+.updates-container::-webkit-scrollbar {
+    width: 6px;
+}
+.updates-container::-webkit-scrollbar-track {
+    background: var(--md-default-bg-color);
+}
+.updates-container::-webkit-scrollbar-thumb {
+    background: var(--md-default-fg-color--lighter);
+    border-radius: 3px;
+}
+.updates-container::-webkit-scrollbar-thumb:hover {
+    background: var(--md-default-fg-color--light);
 }
 </style>
