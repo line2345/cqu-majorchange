@@ -31,13 +31,6 @@
 - 修正文档中的错误
 - 改进文档结构和排版
 
-### 贡献方式
-
-1. Fork 本仓库
-2. 创建你的新分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的修改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到你的分支 (`git push origin feature/AmazingFeature`)
-5. 提交 Pull Request
 
 ### 分享经验
 
