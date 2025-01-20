@@ -58,6 +58,7 @@ nav:
     - 机器学习: recall/重大软院-机器学习-24试题回忆.md
 
 markdown_extensions:
+  - meta  # 启用元数据扩展
   - tables # 表格支持
   - pymdownx.arithmatex: # 数学库支持
       generic: true
@@ -97,6 +98,9 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+extra:
+  comments: true
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # MathJax数学支持
@@ -104,3 +108,4 @@ extra_javascript:
 extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css # KaTeX数学支持
   - stylesheets/extra.css
+
