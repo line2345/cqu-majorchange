@@ -1,10 +1,10 @@
 site_name: Egopposer
-site_url: https://line2345.github.io
+site_url: https://cqu-majorchange
 site_author: line2345
 
 # 仓库
-repo_name: line2345.github.io
-repo_url: https://github.com/line2345/line2345.github.io
+repo_name: cqu-majorchange
+repo_url: https://github.com/line2345/cqu-majorchange
 
 theme:
   name: material
