@@ -53,9 +53,6 @@ nav:
     - 8. 保研相关: majorchange/8. 保研.md
     - 9. 结语: majorchange/9. 结语.md
     - 10. 参考资料: majorchange/10. 参考资料.md
-  - 往年试题:
-    - 深度学习: recall/重大软院-深度学习-24试题回忆.md
-    - 机器学习: recall/重大软院-机器学习-24试题回忆.md
 
 markdown_extensions:
   - meta  # 启用元数据扩展
