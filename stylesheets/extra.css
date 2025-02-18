@@ -1,0 +1,32 @@
+/* 基础标签样式 */
+.status {
+    display: inline-block;
+    padding: 2px 12px;  /* 略微增加了水平内边距 */
+    border-radius: 6px;  /* 增加圆角效果 */
+    font-size: 14px;
+    font-weight: 550;  /* 稍微加粗一点 */
+}
+
+/* 灰色标签 - 用于"未申请"等状态 */
+.status-gray {
+    background-color: #f0f0f0;
+    color: #666666;
+}
+
+/* 蓝色标签 - 用于"待转入学院初审"等状态 */
+.status-blue {
+    background-color: #40a9ff;
+    color: white;
+}
+
+/* 橙色标签 - 用于"待转入学院复审"、"待学校审核"等状态 */
+.status-orange {
+    background-color: #ffa940;
+    color: white;
+}
+
+/* 绿色标签 - 用于"通过"状态 */
+.status-green {
+    background-color: #73d13d;
+    color: white;
+}
