@@ -39,7 +39,7 @@
     - [x] [转专业后的安排](majorchange/6.%20转专业后的安排.md) - 转入后的降转，住宿安排等事项
     - [x] [学分认证与补课](majorchange/7.%20学分认证与补课.md) - 学分认证规则与课程补修指南
     - [x] [保研相关](majorchange/8.%20保研.md) - 转专业后保研相关注意事项
-    - [ ] [结语](majorchange/9.%20结语.md) - 项目总结
+    - [x] [经验分享](majorchange/9.%20经验分享.md) - 部分同学的转专业经验收集与分享
     - [ ] [参考资料](majorchange/10.%20参考资料.md) - 官方文件与其他参考资料
 
 -   :material-clock-time-four-outline:{ .lg .middle } __最近更新__
@@ -47,6 +47,10 @@
     ---
 
     <div class="updates-container" markdown>
+
+    - 2025-02-28：
+        删除结语部分，替换为经验分享。
+
     - 2025-02-25：
         些许改动与内容补充。
 
