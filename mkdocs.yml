@@ -1,6 +1,7 @@
-site_name: Egopposer
+site_name: 重庆大学转专业完全指南
 site_url: https://cqu-majorchange.top
 site_author: line2345
+site_description: 提供重庆大学各学院转专业政策、经验分享、历年数据分析及申请指南的综合信息平台
 
 # 仓库
 repo_name: cqu-majorchange
@@ -97,6 +98,24 @@ markdown_extensions:
 
 extra:
   comments: true
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/line2345
+    - icon: fontawesome/solid/envelope
+      link: mailto://476057016line@gmail.com
+  analytics:
+    provider: google
+    property: UA-XXXXXXXX-X
+  meta:
+    keywords: 重庆大学, 转专业, 专业调整, 申请指南, 重大, CQU, 学院政策, 经验分享
+
+plugins:
+  - seo
+  - search
+
+google_analytics:
+  - UA-XXXXXXXX-X
+  - auto
 
 extra_javascript:
   - javascripts/mathjax.js

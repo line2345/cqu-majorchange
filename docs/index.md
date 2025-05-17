@@ -1,6 +1,6 @@
 # **Home** :sparkles:  
 
-> **仓库地址**：[`line2345`](https://line2345.github.io/cqu-majorchange/)  
+> **仓库地址**：[`cqu-majorchange`](https://line2345.github.io/cqu-majorchange/)  
 > **当前状态**：🚧 **施工中**！
 
 ## CQU转专业完全指南 - 导航页
