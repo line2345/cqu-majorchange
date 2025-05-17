@@ -113,9 +113,6 @@ plugins:
   - seo
   - search
 
-google_analytics:
-  - UA-XXXXXXXX-X
-  - auto
 
 extra_javascript:
   - javascripts/mathjax.js
