@@ -110,8 +110,8 @@ extra:
     keywords: 重庆大学, 转专业, 专业调整, 申请指南, 重大, CQU, 学院政策, 经验分享
 
 plugins:
-  - seo
   - search
+  - meta-descriptions
 
 
 extra_javascript:
