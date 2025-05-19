@@ -54,6 +54,8 @@ nav:
     - 8. 保研相关: majorchange/8. 保研.md
     - 9. 经验分享: majorchange/9. 经验分享.md
     - 10. 参考资料: majorchange/10. 参考资料.md
+  - 往年数据总结:
+    - 2024年转专业数据: history/2024年数据.md
 
 markdown_extensions:
   - meta  # 启用元数据扩展
@@ -122,6 +124,4 @@ extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css # KaTeX数学支持
   - stylesheets/extra.css
 
-extra_files:
-  - BingSiteAuth.xml
 
