@@ -1,9 +1,9 @@
-# **Home** :sparkles:  
+# **重庆大学转专业完全指南** :sparkles:  
 
 > **仓库地址**：[`cqu-majorchange`](https://line2345.github.io/cqu-majorchange/)  
-> **当前状态**：🚧 **施工中**！
+> **当前状态**： **基本竣工，欢迎贡献**！
 
-## CQU转专业完全指南 - 导航页
+## 导航页
 
 <div class="grid cards" markdown>
 
@@ -48,6 +48,9 @@
 
     <div class="updates-container" markdown>
 
+    - 2025-05-19：
+        新增往年数据总结。
+
     - 2025-02-28：
         删除结语部分，替换为经验分享。
 
@@ -62,9 +65,18 @@
 
     - 2025-01-16：
         新增[前言-转入与转出](1.%20前言.md/#1_1)，更新部分格式与排版。
+        
+-   :material-link-plus:{ .lg .middle } __友情链接__
+
+    ---
     
-    
+    - [CQU-openlib：重庆大学资源共享计划](https://cqu-openlib.cn/)
+
+       
+     
     </div>
+
+
 
 </div>
 
